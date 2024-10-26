@@ -108,6 +108,7 @@ export default {
 * {
   --catacombs-bg: url("https://www.tripsavvy.com/thmb/rfULGIEBzqBba8PCTYKLsWGsd_4=/2122x1412/filters:fill(auto,1)/ParisCatacombs-9b0f678ccab940c28916e64afa309bfb.jpg");
   --asylum-bg: url("https://assets3.thrillist.com/v1/image/776232/1200x630/flatten;crop_down;webp=auto;jpeg_quality=70");
+  --circus-bg: url("https://i.etsystatic.com/37725742/r/il/cfebe2/5143178799/il_1140xN.5143178799_2oua.jpg");
 
   --bg-tint: rgba(0, 0, 0, .7);
 }
@@ -115,7 +116,7 @@ export default {
 .page {
   background:
       linear-gradient(var(--bg-tint), var(--bg-tint)),
-      var(--asylum-bg) no-repeat center center fixed;
+      var(--circus-bg) no-repeat center center fixed;
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
