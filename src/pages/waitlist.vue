@@ -7,7 +7,7 @@
       - The Asylum: A Foundation Open House
     -->
     <div class="banner">
-      <h1>The Asylum</h1>
+      <h1>The Circus</h1>
       <h2>A Foundation Open House</h2>
     </div>
 
