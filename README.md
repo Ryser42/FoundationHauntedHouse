@@ -20,13 +20,19 @@ If you are running in powershell, change `export ...` to `$env:...`. For example
 
 ## Running the Website
 
-To run the website locally, run the following command:
+# To run the website locally
 
+run the following command:
 ```
 npm run serve
 ```
 
 The website will likely run on http://localhost:8080, but it may run on a different port, so check your terminal output. 
+
+# To host the website on a custom domain
+- edit the "CNAME" file to contain the domain
+- add the domain in the GutHub pages section
+- go to the domain managing site and follow these [instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site):
 
 ### Using the website
 
